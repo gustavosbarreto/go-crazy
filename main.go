@@ -3,11 +3,11 @@ package main
 import (
 	"net/http"
 
-	"github.com/sirupsen/logrus"
+	log "github.com/gustavosbarreto/gocrazy-log"
 )
 
 func main() {
-	logrus.Info("starting")
+	log.Info("starting")
 
 	cli := http.Client{}
 
@@ -15,5 +15,5 @@ func main() {
 
 	cli.Do(req)
 
-	logrus.Info("started")
+	log.Info("started")
 }

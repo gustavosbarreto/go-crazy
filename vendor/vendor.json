@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "H0Lg2mccTk82xjeob5GQEyjfCmI=",
+			"path": "github.com/gustavosbarreto/gocrazy-log",
+			"revision": "3a2706c30fb20411cb17b46634364f81d73efe8f",
+			"revisionTime": "2018-04-02T17:38:01Z"
+		},
+		{
 			"checksumSHA1": "GWtDi0sYbtCQzF/ZaVhaHvCMvuk=",
 			"path": "github.com/sirupsen/logrus",
 			"revision": "c155da19408a8799da419ed3eeb0cb5db0ad5dbc",
